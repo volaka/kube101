@@ -161,15 +161,15 @@ IBM Cloud provides the capability to run applications in containers on Kubernete
 
 ## Lab overview
 
-[Lab 0](https://github.com/volaka/kube101/tree/bf470977788909d418ca40830f565648a89dc640/docs/Lab0/README.md) \(Optional\): Provides a walkthrough for installing IBM Cloud command-line tools and the Kubernetes CLI. You can skip this lab if you have the IBM Cloud CLI, the container-service plugin, the containers-registry plugin, and the kubectl CLI already installed on your machine.
+[Lab 0 ](lab/lab0.md)\(Optional\): Provides a walkthrough for installing IBM Cloud command-line tools and the Kubernetes CLI. You can skip this lab if you have the IBM Cloud CLI, the container-service plugin, the containers-registry plugin, and the kubectl CLI already installed on your machine.
 
-[Lab 1](https://github.com/volaka/kube101/tree/bf470977788909d418ca40830f565648a89dc640/docs/Lab1/README.md): This lab walks through creating and deploying a simple "guestbook" app written in Go as a net/http Server and accessing it.
+[Lab 1](lab/lab1.md): This lab walks through creating and deploying a simple "guestbook" app written in Go as a net/http Server and accessing it.
 
-[Lab 2](https://github.com/volaka/kube101/tree/bf470977788909d418ca40830f565648a89dc640/docs/Lab2/README.md): Builds on lab 1 to expand to a more resilient setup which can survive having containers fail and recover. Lab 2 will also walk through basic services you need to get started with Kubernetes and the IBM Cloud Kubernetes Service
+[Lab 2](lab/lab2.md): Builds on lab 1 to expand to a more resilient setup which can survive having containers fail and recover. Lab 2 will also walk through basic services you need to get started with Kubernetes and the IBM Cloud Kubernetes Service
 
-[Lab 3](https://github.com/volaka/kube101/tree/bf470977788909d418ca40830f565648a89dc640/docs/Lab3/README.md): Builds on lab 2 by increasing the capabilities of the deployed Guestbook application. This lab covers basic distributed application design and how kubernetes helps you use standard design practices.
+[Lab 3](lab/lab3.md): Builds on lab 2 by increasing the capabilities of the deployed Guestbook application. This lab covers basic distributed application design and how kubernetes helps you use standard design practices.
 
-[Lab 4](https://github.com/volaka/kube101/tree/bf470977788909d418ca40830f565648a89dc640/docs/Lab4/README.md): How to enable your application so Kubernetes can automatically monitor and recover your applications with no user intervention.
+[Lab 4](lab/lab4.md): How to enable your application so Kubernetes can automatically monitor and recover your applications with no user intervention.
 
-[Lab D](https://github.com/volaka/kube101/tree/bf470977788909d418ca40830f565648a89dc640/docs/LabD/README.md): Debugging tips and tricks to help you along your Kubernetes journey. This lab is useful reference that does not follow in a specific sequence of the other labs.
+[Lab D](lab/lab5-debug.md): Debugging tips and tricks to help you along your Kubernetes journey. This lab is useful reference that does not follow in a specific sequence of the other labs.
 
